@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'http://aconsciencia.herokuapp.com/swagger-ui/#/yarn'
+    baseURL: 'http://aconsciencia.herokuapp.com'
 })
 
 export const cadastroUsuario = async (url: any, dados: any, setDado: any) => {
