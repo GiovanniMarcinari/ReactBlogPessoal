@@ -41,8 +41,18 @@ function Navbar() {
                         BlogPessoal
                     </Typography>
                 </Box>
+                }
 
 
+                <Box display="flex" justifyContent="start" alignItems="center">
+                            <Link to='/home' className="text-decorator-none">
+                                <Typography variant="h5" color="inherit" >
+                                    <img src="https://imgur.com/OEPQMQF.png" alt="logo" className="logo" />
+                                </Typography>
+                            </Link>
+                            <Link to='/home' className="text-decorator-none">
+
+              
                 <Box display="flex" justifyContent="start">
                     <Link to="/home" className="text-decorator-none">
                         <Box mx={1} className='cursor'>
@@ -84,6 +94,7 @@ function Navbar() {
             </Toolbar>
         </AppBar>
     }
+    
     return (
         <>
             {navbarComponent}
